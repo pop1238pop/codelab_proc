@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-65ct95mgzmt1wp*e2zn&710zogqy^68+bm8g&=6ek$tb93ysup'
+SECRET_KEY = 'django-insecure-0dim6f0h-9r=ju6d^z47+gjp6yuxkd2g69*)@@2_*t5r%g@y^!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -51,7 +51,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
 ]
-#setting.py
 
 CORS_ALLOW_HEADERS = [
 'accept',
